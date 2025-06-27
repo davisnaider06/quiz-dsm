@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Quiz DSM</title>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz de Desenvolvimento Web</h1>
+
+    <form id="quizForm">
+      <fieldset class="highlight">
+        <legend>1. Qual é a tag HTML usada para títulos?</legend>
+        <label><input type="radio" name="q1" value="A"> &lt;title&gt;</label>
+        <label><input type="radio" name="q1" value="B"> &lt;h1&gt;</label>
+        <label><input type="radio" name="q1" value="C"> &lt;head&gt;</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Qual propriedade CSS altera a cor do texto?</legend>
+        <label><input type="radio" name="q2" value="A"> background-color</label>
+        <label><input type="radio" name="q2" value="B"> text-style</label>
+        <label><input type="radio" name="q2" value="C"> color</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Qual atributo HTML é usado para identificar o nome de um input?</legend>
+        <label><input type="radio" name="q3" value="A"> id</label>
+        <label><input type="radio" name="q3" value="B"> class</label>
+        <label><input type="radio" name="q3" value="C"> name</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>4. O que o JavaScript pode fazer em uma página web?</legend>
+        <label><input type="radio" name="q4" value="A"> Criar animações apenas</label>
+        <label><input type="radio" name="q4" value="B"> Tornar a página interativa</label>
+        <label><input type="radio" name="q4" value="C"> Somente estilizar o site</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>5. Qual desses é um framework CSS?</legend>
+        <label><input type="radio" name="q5" value="A"> Bootstrap</label>
+        <label><input type="radio" name="q5" value="B"> React</label>
+        <label><input type="radio" name="q5" value="C"> Node.js</label>
+      </fieldset>
+
+      <button type="button" onclick="verificarRespostas()">Verificar</button>
+      <div class="result" id="resultado"></div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
