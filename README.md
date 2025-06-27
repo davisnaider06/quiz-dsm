@@ -40,7 +40,7 @@ Este é um projeto de quiz interativo desenvolvido para a disciplina de **Desenv
 
 
 2. Abra o arquivo `index.html` no navegador.
-````
+
 ---
 
 
