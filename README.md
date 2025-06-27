@@ -1,6 +1,5 @@
 ## Projeto: Quiz Interativo de Desenvolvimento Web**
 
-````markdown
 # 🧠 Quiz Interativo de Desenvolvimento Web
 
 Este é um projeto de quiz interativo desenvolvido para a disciplina de **Desenvolvimento Web I (DSM)**, com o objetivo de testar conhecimentos básicos de HTML, CSS e JavaScript. A aplicação é leve, responsiva e apresenta o resultado de forma visual e didática, destacando acertos e erros com ícones e cores.
@@ -38,10 +37,10 @@ Este é um projeto de quiz interativo desenvolvido para a disciplina de **Desenv
 1. Clone o repositório:
    ```bash
    git clone https://github.com/davisnaider06/quiz-dsm.git
-````
+
 
 2. Abra o arquivo `index.html` no navegador.
-
+````
 ---
 
 
@@ -66,4 +65,3 @@ Esse projeto reforçou conceitos essenciais como:
 
 Este projeto é livre para uso educacional. Fique à vontade para adaptar e compartilhar!
 
-````
